@@ -1,7 +1,5 @@
 <template>
-  <div>
-      <el-button>默认按钮</el-button>
-      <router-link to="">跳转</router-link>
+  <div class="app">
       <router-view></router-view>
   </div>
 </template>
@@ -13,5 +11,6 @@ export default {
   methods: {}
 };
 </script>
-<style>
+<style lang='less'>
+@import url(~@/style/base.css);
 </style>
